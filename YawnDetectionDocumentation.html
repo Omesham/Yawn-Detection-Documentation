@@ -1,0 +1,153 @@
+<body>
+	<head>
+
+
+
+
+		<div class="Yawn Detection and Counter" id="Yawn">
+
+			<h1 style="text-align:center">
+				This Is The Documentation For Yawn Detection
+
+
+			</h1>
+
+			<p>
+				Please click on link below for trained model download
+
+
+
+			</p>
+			<a name="trained model"
+			   href=https://sourceforge.net/projects/dclib/files/dlib/v18.10/shape_predictor_68_face_landmarks.dat.bz2Model> Github Account</a>
+
+			</a>
+			<p>
+				Please click on link below to get code
+
+
+			</p>
+
+			<a class="code" href=https://sourceforge.net/projects/dclib/files/dlihttps://github.com/nivu/myvino/commit/2826987df59496020e77bfc6bffc738e9d617b7db/v18.10/shape_predictor_68_face_landmarks.dat.bz2>Model Github Account</a>
+
+			</a>
+		</div>
+		<div class="Anaconda">
+			<h2>
+				ANACONDA INSTALLATION FOR JUPYTER NOTEBOOK
+
+			</h2>
+
+
+			<p>
+				<b>Step 1: </b>
+
+				Download Anaconda: click link <a href=https://www.anaconda.com/products/distribution> Anaconda Download</a>
+
+				Click on get additional installers for other operating system options
+
+
+			</p>
+			<img src="C:\Users\DTS-Loaner\Pictures\Click Get Additional Installers.jpg" .jpg" alt="Anaconda">
+			<p>
+				<b>Step 2: </b>
+				Click on the executable file and install Anaconda, select the path where you want it installed and click next and follow the installation
+				process prompts.It takes some time so don't panic.<br><br>
+
+
+				<b>Step 3: </b>
+				Go to directory or folder where it is installed, you should see Anaconda3 directory/folder created by the installation. <br><br>
+				<b>Step 4: </b> (Set up environment)<br><br>
+				<b>Step 5: </b> (Copy required directory paths and add new environment)<br><br>
+				Now copy the Anaconda File Path, click on your start menu and search for "environment"
+
+			</p>
+
+			<img src="C:\Users\DTS-Loaner\Pictures\environment search.jpg" alt="Env">
+			<p>
+				<b>Step 6: </b>
+				Open environment window and add these directories paths as seen in the image below.<br><br>
+
+			</p>
+
+			<img src="C:\Users\DTS-Loaner\Pictures\anacondaFilePath.jpg" alt="Anaconda3 dir path">
+			
+
+		</div>
+
+          <div>
+		  
+		  	<p>
+				<b>Step 7: </b>
+				Now launch your anaconda terminal:click start menu and search for "Anaconda" 
+				open terminal and tpe the command to create an environment to install necessary packages because you can't install these packages in your base directory <br>
+		         <span style="color:red">NOTE!</span>  The packages need this environment you are about to create to work with your packages,
+					when you shut down your terminal you will always be required to activate your environment to use these packages so make sure to remember 
+					your environment or type " conda env list " without the doube quote to show list of environments 
+					env to show your environment <br><br>
+				
+				<b>Step 8: </b> (create environment)
+				
+				Type command: conda create -n myenv  (myenv is whatever name you give your environment) and hit enter
+				
+				copy or type conda activate myenv  (to activate environment)
+				
+				see image below
+
+			</p>
+		  
+		    <img src="C:\Users\DTS-Loaner\Pictures\c.jpg"alt="Activate env">
+			
+			
+			
+		  </div>
+
+          <div>
+		     <p>
+			 
+			 <b>Step 9: </b><br><br> 
+			 
+			 Run these commands to install conda packages the necessary packages you need are 
+				a. dlib<br><br> b. python <br><br> c.numpy <br><br> d.opencv <br><br> e. jupyter notebook <br><br>
+				
+			 Now if in the future you want to activate more packages in this environment , activate the environment ( conda activate myenv and repeat these processes)<br><br>
+			 
+			 
+			 <b>Step 10: </b><br><br> 
+			 
+			 Type commands and hit enter, type y to continue always 
+			 
+			 commands:
+			 
+			 conda update conda
+			 
+			 conda update anaconda
+			 
+			 conda install -c conda-forge dlib <br><br>conda install -c conda-forge python<br><br>conda install -c conda-forge numpy <br><br>
+			 conda install -c conda-forge opencv-python <br><br>  conda install -c conda-forge jupyter notebook <br><br>
+			 
+			 <b>Step 11: </b>
+			 After installing packages 
+			 
+			 Type jupter notebook to launch jupyter notebook.
+			 
+			 You can run your code on jupyter notebook now. 
+			 
+			 The code will execute and launch 2 window frames, one for you face landmarks and the other the live webcam where you can yawn and it counts it.
+			 
+			 Now I hardcoded my lip distance, feel free to play with this figure to adjust sensitivity level, because you don't want it to count when 
+			 you're talking as a Yawn.
+		 
+			 
+			 </p>
+		  
+			</div>
+
+
+
+
+
+
+
+	</head>
+</body>
